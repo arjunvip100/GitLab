@@ -1,0 +1,28 @@
+Install gitlab runner 
+connect using by ssh key 
+gitlab-runner register
+
+Enter the GitLab instance URL (for example, https://gitlab.com/):
+https://gitlab.com/
+Enter the registration token:
+GR1348941d1C6KmAvWu5_AX9TCN5r
+Enter a description for the runner:
+[MSI]: my-runner
+Enter tags for the runner (comma-separated):
+ssh, ci
+Enter optional maintenance note for the runner:
+
+
+shell
+
+
+
+Settings>Cicd>Runners 
+
+
+Paused runners don't accept new jobs {right}
+Indicates whether this runner can pick jobs without tags {right}
+
+
+
+gitlab-runner --debug run
